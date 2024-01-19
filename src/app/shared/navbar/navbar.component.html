@@ -1,0 +1,68 @@
+<nav class="text-white">
+  <div class="max-w-7xl mx-5  mt-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16 relative">
+      <!-- Logo -->
+      <div class="flex-shrink-0">
+        <span class="text-sm lg:text-xl font-semibold">Manuel Berganza</span>
+      </div>
+
+      <!-- Menú para desktop -->
+      <div class="hidden md:block">
+        <div class="ml-10 flex items-baseline space-x-4">
+          <a
+            routerLink=""
+            class="hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">
+            Inicio
+          </a>
+          <a
+            routerLink="sobre-mi"
+            class="hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">
+            Sobre mí
+          </a>
+          <a
+            routerLink="proyectos"
+            class="hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">
+            Otros proyectos
+          </a>
+        </div>
+      </div>
+
+      <!-- Botón del menú para móvil -->
+      <div class="flex md:hidden">
+        <button
+          (click)="toogleMenu()"
+          type="button"
+          class="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700" aria-controls="mobile-menu" aria-expanded="false">
+
+          <!-- Icono del menú (hamburguesa) -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Menú para móvil -->
+  <div [class.hidden]="!isMenuOpen" class="md:hidden absolute right-4">
+    <div
+      class="bg-gray-800 w-60 z-10 rounded-md p-2 sm:px-3">
+      <a
+        routerLink=""
+        class="hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">
+        Inicio
+      </a>
+      <a
+        routerLink="sobre-mi"
+        class="hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">
+        Sobre mí
+      </a>
+      <a
+        routerLink="proyectos"
+        class="hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">
+        Otros proyectos
+      </a>
+    </div>
+  </div>
+</nav>
