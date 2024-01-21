@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
+import { ExperienciaComponent } from '../home-page/components/experiencia-component/experiencia-component.component';
 
 @Component({
   selector: 'app-sobre-mi',
   standalone: true,
-  imports: [],
+  imports: [
+    ExperienciaComponent
+  ],
   templateUrl: './sobre-mi.component.html',
   styles: ``
 })
