@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Teko:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    
+    <title>Sobre mi | Manuel Berganza</title>
+</head>
+<body class="bg-mb-primary text-white leading-relaxed">
+    
+<nav class="p-6 mb-8 md:mb-14 md:text-xl">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <div class="w-28 hover:animate-pulse">
+            <a href="/">
+                <img src="/img/logo.jpg" class="w-full rounded-md" alt="Logo Manuel Berganza">
+            </a>
+        </div>
+        <div class="hidden md:flex space-x-4">
+            <a href="/" class="text-gray-300 hover:text-white">Inicio</a>
+            <a href="/sobre-mi" class="text-gray-300 hover:text-white">Sobre mi</a>
+            <a href="/blog" class="text-gray-300 hover:text-white">Blog</a>
+            <a href="/portafolio" class="text-gray-300 hover:text-white">Portafolio</a>
+        </div>
+        <div class="md:hidden flex items-center">
+        <button id="hamburger-btn" class="text-gray-300 bg-gray-800 rounded-md p-2 focus:outline-none transition-colors ease-in-out duration-200">
+            <svg _ngcontent-ng-c2898294731="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16" class="bi bi-list"><path _ngcontent-ng-c2898294731="" fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"></path></svg>
+        </button>
+        </div>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden absolute right-4 mt-2 bg-gray-800 rounded-lg shadow-lg w-48 py-2 z-10">
+        <a href="/" class="block text-gray-300 hover:bg-gray-700 hover:text-white hover:underline px-4 py-2">Inicio</a>
+        <a href="/sobre-mi" class="block text-gray-300 hover:bg-gray-700 hover:text-white hover:underline px-4 py-2">Sobre mi</a>
+        <a href="/blog" class="block text-gray-300 hover:bg-gray-700 hover:text-white hover:underline px-4 py-2">Blog</a>
+        <a href="/portafolio" class="block text-gray-300 hover:bg-gray-700 hover:text-white hover:underline px-4 py-2">Portafolio</a>
+    </div>
+</nav>
+    <main class="min-h-screen">
+        
+<section class="mb-20 w-4/5 mx-auto max-w-3xl">
+    <div class="w-36 mx-auto mb-8 rounded-full overflow-hidden">
+        <img class="w-full" src="/img/perfil.png" alt="foto de manuel berganza">
+    </div>
+
+    <div class="mb-6">
+        <div class="mb-8 text-center">
+            <h1 class="text-2xl font-bold">Manuel Berganza</h1>
+            <a class="text-gray-500" href="https://x.com/manuelberganza_" target="_blank">@manuelberganza_</a>
+        </div>
+
+        <div class="text-xl">
+            <p class="mb-6">
+                Soy Programador de Software con experiencia en la creación de <span class="text-mb-blue-light font-bold"> API-REST</span> utilizando <span class="text-mb-blue-light font-bold">Java</span> y <span class="text-mb-blue-light font-bold">Spring</span>, siempre garantizo sistemas robustos y escalables. También trabajo con <span class="text-mb-blue-light font-bold">Node.js</span> en tareas de automatización y <span class="text-mb-blue-light font-bold">aplicaciones MVC</span>.
+            </p>
+
+            <p class="mb-6">
+                Me encanta convertir ideas en realidades digitales. He tenido la oportunidad de trabajar en algunos proyectos como freelance construyendo sistemas completos desde la base de datos con <span class="text-mb-blue-light font-bold">MySQL</span>, manejo de sesiones y la interfaz gráfica.
+                Además, tengo conocimientos en frontend utilizando <span class="text-mb-blue-light font-bold">HTML</span>, <span class="text-mb-blue-light font-bold">CSS</span>, <span class="text-mb-blue-light font-bold">Tailwind</span>, <span class="text-mb-blue-light font-bold">JavaScript</span> y <span class="text-mb-blue-light font-bold">React</span> para diseñar interfaces de usuario dinámicas y <span class="text-mb-blue-light font-bold">adaptables</span> a cada dispositivo.
+            </p>
+
+            <p class="bg-gray-700/10 p-2 shadow-lg">
+                Si necesitas un desarrollador que entienda tus necesidades y las transforme en soluciones eficientes, estaré encantado de ser parte de tu equipo.
+            </p>
+        </div>
+    </div>
+
+    <a class="text-mb-blue-light underline text-xl" href="#" target="_blank">Descargar CV - Manuel Berganza</a>
+</section>
+
+<section class="mb-20 w-4/5 mx-auto">
+    <h3 class="text-center text-2xl md:text-3xl font-bold mb-6 animate-bounce">Contáctame ⬇</h3>
+
+    <div class="flex flex-col justify-center md:flex-row md:justify-center gap-4">
+        <p id="correo" class="bg-slate-900 p-2 md:p-4 text-xl text-center rounded-md shadow-lg">
+            manuelberganza.dev@gmail.com
+        </p>
+        <button id="correoBtn" class="bg-blue-600 hover:bg-blue-950 text-xl p-2 rounded-md transition-colors ease-in-out shadow-md">
+            Copiar
+        </button>
+    </div>
+
+    <div id="notificacion" class="w-60 py-4 mx-auto"></div>
+
+</section>
+
+
+
+<section class="w-4/5 mx-auto">
+   <h2 class="text-2xl md:text-3xl font-bold text-center mb-10">Tecnologías</h2>
+
+   <div class="max-w-lg sm:mx-auto text-sm text-mb-gray-light font-bold grid grid-cols-4 md:grid-cols-6 gap-6 mb-20">
+        <div class="hover:scale-125 transition-all ease-out duration-200">
+            <img src="/img/tech/java.svg" alt="logo java">
+
+            <p class="text-center mt-2">JAVA</p>
+        </div> 
+
+        <div class="hover:scale-125 transition-all ease-out duration-200">
+            <img src="/img/tech/spring.svg" alt="logo spring">
+            
+            <p class="text-center mt-2">SPRING</p>
+        </div>
+
+        <div class="hover:scale-125 transition-all ease-out duration-200">
+            <img src="/img/tech/mysql.svg" alt="logo mysql">
+            <p class="text-center mt-2">MYSQL</p>
+        </div>
+
+        <div class="hover:scale-125 transition-all ease-out duration-200">
+            <img src="/img/tech/js.svg" alt="logo javascript">
+
+            <p class="text-center mt-2">JAVASCRIPT</p>
+        </div>
+
+        <div class="hover:scale-125 transition-all ease-out duration-200">
+            <img src="/img/tech/bootstrap.svg" alt="logo bootstrap">
+            <p class="text-center mt-2">BOOTSTRAP</p>
+        </div>
+
+        <div class="hover:scale-125 transition-all ease-out duration-200">
+            <img src="/img/tech/tailwind.svg" alt="logo tailwind">
+
+            <p class="text-center mt-2">TAILWIND</p>  
+        </div>
+
+        <div class="hover:scale-125 transition-all ease-out duration-200">
+            <img src="/img/tech/html.svg" alt="logo html">
+
+            <p class="text-center mt-2">HTML</p>
+        </div>
+
+        <div class="hover:scale-125 transition-all ease-out duration-200">
+            <img src="/img/tech/css.svg" alt="logo css">
+
+            <p class="text-center mt-2">CSS</p>
+        </div>
+
+        <div class="hover:scale-125 transition-all ease-out duration-200">
+            <img src="/img/tech/nodejs.svg" alt="logo nodejs">
+
+            <p class="text-center mt-2">NODEJS</p>
+        </div>
+
+        <div class="hover:scale-125 transition-all ease-out duration-200">
+            <img src="/img/tech/ts.svg" alt="logo typescript">
+
+            <p class="text-center mt-2">TYPESCRIPT</p>
+        </div>
+
+        <div class="hover:scale-125 transition-all ease-out duration-200">
+            <img src="/img/tech/git.svg" alt="logo git">
+
+            <p class="text-center mt-2">GIT</p>
+        </div>
+
+        <div class="hover:scale-125 transition-all ease-out duration-200">
+            <img src="/img/tech/react.svg" alt="logo react">
+
+            <p class="text-center mt-2">REACT</p>
+        </div>
+   </div>
+    
+</section>
+    </main>
+    <footer class="bg-mb-secondary border-t border-mb-blue-light p-6">
+    <h2 class="text-center text-2xl font-bold mb-10">Redes Sociales</h2>
+
+    <div class="flex justify-evenly mb-10">
+        <a href="https://www.linkedin.com/in/manuel-berganza/" target="_blank">
+            <div class="flex">
+                <div class="w-6">
+                    <img src="/img/tech/linkedin.svg" alt="logo linkedin">
+                </div>
+
+                    <p class="ml-2 text-xl">LinkedIn</p>
+            </div>
+        </a>
+
+        <a href="https://github.com/manuelberganza-dev" target="_blank">
+            <div class="flex">
+                <div class="w-6">     
+                    <img src="/img/tech/github.svg" alt="logo github">
+                </div>
+
+                <p class="ml-2 text-xl">Github</p>
+            </div>
+        </a>
+    </div>
+
+    
+    <div class="text-xl text-center mb-6">
+        <p class="text-sm text-gray-400">
+            Hecho con <a href="https://www.11ty.dev/" target="_blank"><span class="text-mb-blue-light font-bold">11ty</span></a>
+            por <a href="https://x.com/manuelberganza_" target="_blank"><span class="text-mb-blue-light font-bold">Manuel Berganza</span></a>
+        </p>
+        <p class="text-sm text-gray-400">Construyendo Software con toda la actitud 😎 desde El Salvador, para el mundo.</p>
+    </div>
+
+</footer>
+
+    <script src="/js/app.js"></script>
+</body>
+</html>
