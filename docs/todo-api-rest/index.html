@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo API REST | Spring, MySQL</title>
 
     <link href="/output.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Teko:wght@300&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
-    
-    <title>Portafolio</title>
 </head>
 <body class="bg-mb-primary text-white leading-relaxed">
     
@@ -40,83 +39,38 @@
         <a href="/portafolio" class="block text-gray-300 hover:bg-gray-700 hover:text-white hover:underline px-4 py-2">Portafolio</a>
     </div>
 </nav>
-    <main class="min-h-screen">
-        
-<div class="mb-32 w-4/5 mx-auto">
-    <h3 class="text-2xl md:text-4xl font-bold text-center mb-8 md:mb-10">Todos mis proyectos</h3>
-    <hr class="w-16 border-mb-blue-light mb-12 mx-auto">
 
-    
-<section class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-
-    <a href="/pos" target="_blank" class="hover:scale-110 transition-all ease-in duration-200">
-        <div>
-            <div class="mb-4">
-                <img src="/img/post/pos-portada.png" class="rounded-lg shadow-lg" alt="">
-            </div>
-            
-            <div class="mb-4">
-                <p class="text-2xl font-bold mb-2">Punto de Venta</p>
-                <p class="text-mb-gray-light">
-                    Permite a los empleados gestionar inventarios, registrar ventas, y emitir recibos.
-                    Brindando control en el manejo de productos, clientes, y pagos.
-                </p>
-            </div>
-            <div class="w-full flex flex-nowrap gap-2">
-                <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">Java</p>
-                <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">Spring MVC</p>
-                <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">Thymeleaf</p>
-                <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">Javascript</p>
-            </div>
-        </div> 
-    </a> <!-- FIN CARD PROJECT -->
-
-    <a href="/xclone" target="_blank" class="hover:scale-110 transition-all ease-in duration-200">
-        <div>
-            <div class="mb-4">
-                <img src="/img/post/xclone-portada.jpeg" class="rounded-lg shadow-lg" alt="">
-            </div>
-            
-            <div class="mb-4">
-                <p class="text-2xl font-bold mb-2">Xclone App</p>
-                <p class="text-mb-gray-light">
-                    Es una replica de X creada desde el diseño de su base de datos. Permite crear publicaciones e interactuar con otras mediante me gustas y comentarios.
-                </p>
-            </div>
-            <div class="flex gap-2">
-                <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">Java</p>
-                <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">Spring MVC</p>
-                <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">Thymeleaf</p>
-                <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">Javascript</p>
-            </div>
-        </div> 
-    </a> <!-- FIN CARD PROJECT -->
-    
-    <a href="/todo-api-rest" target="_blank" class="hover:scale-110 transition-all ease-in duration-200">
-        <div>
-            <div class="mb-4">
-                <img src="/img/post/todo-portada.png" class="rounded-lg shadow-lg" alt="">
-            </div>
-            
-            <div class="mb-4">
-                <p class="text-2xl font-bold mb-2">Todo API REST</p>
-                <p class="text-mb-gray-light">
-                    API REST creada con Spring para Gestionar tareas, permitiendo a los usuarios crear, actualizar, eliminar sus tareas. Está diseñada para integrarse fácilmente con el frontend.
-                </p>
-            </div>
-            <div class="flex gap-2">
-                <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">Java</p>
-                <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">Spring</p>
-                <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">Spring Security</p>
-                <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">MySQL</p>
-            </div>
-        </div> 
-    </a> <!-- FIN CARD PROJECT --> 
-
-
+    <main class="w-4/5 max-w-4xl mx-auto pb-14 min-h-screen">
+        <h2 class="text-center text-4xl font-bold mb-12">Todo App - API REST</h2>
+<section class="w-4/5 mx-auto">
+    <div class="mb-12">
+        <p class="mb-8">
+            <span class="text-mb-blue-light"><strong>Spring MVC</strong></span> no solo tiene un gran potencial para crear aplicaciones web renderizadas en el servidor, sino también para crear <span class="text-mb-blue-light"><strong>API REST</strong></span> siguiendo este patrón. 
+        </p>
+        <img class="rounded-md shadow-lg mx-auto" src="/img/post/todo-portada.png" />
+    </div>
+<p><div class="mb-12">
+<p class="mb-8">
+Diseñada para gestionar tareas y listas de pendientes de forma eficiente, permitiendo a los usuarios organizar sus actividades diarias de manera estructurada y segura.
+</p>
+<img class="rounded-md shadow-lg w-64 md:w-full mx-auto" src="/img/todo-app/1-todo-api.png" />
+</div></p>
+<p><div class="mb-12">
+<p class="mb-8">
+La API proporciona funcionalidades esenciales para <span class="text-mb-blue-light"><strong>crear</strong></span>, <span class="text-mb-blue-light"><strong>actualizar</strong></span> y <span class="text-mb-blue-light"><strong>eliminar tareas</strong></span>, además de poder asignar prioridades y categorías a cada una de ellas, ayudando a los usuarios a mantener un control preciso sobre sus pendientes.
+</p>
+<img class="rounded-md shadow-lg w-64 md:w-full mx-auto" src="/img/todo-app/2-todo-api.png" />
+</div></p>
+<p><div class="mb-12">
+<p class="mb-8">
+Permitiendo la integración con interfaces frontend que acceden a la <span class="text-mb-blue-light"><strong>API de forma segura</strong></span>.
+</p>
+<img class="rounded-md shadow-lg w-64 md:w-full mx-auto" src="/img/todo-app/3-todo-api.png" />
+</div></p>
 </section>
-</div>
+
     </main>
+
     <footer class="bg-mb-secondary border-t border-mb-blue-light p-6">
     <h2 class="text-center text-2xl font-bold mb-10">Redes Sociales</h2>
 

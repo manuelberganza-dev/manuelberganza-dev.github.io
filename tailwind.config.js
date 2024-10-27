@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./code/**/*.{html,njk}", "./.elventy.js"],
+  content: ["./code/**/*.{html,njk,md}", "./.elventy.js"],
   theme: {
     extend: {
       fontFamily: {

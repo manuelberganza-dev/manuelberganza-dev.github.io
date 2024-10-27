@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punto de Venta | Spring MVC, Spring Security, Spring Data JPA</title>
+
+    <link href="/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Teko:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+</head>
+<body class="bg-mb-primary text-white leading-relaxed">
+    
+<nav class="p-6 mb-8 md:mb-14 md:text-xl">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <div class="w-28 hover:animate-pulse">
+            <a href="/">
+                <img src="/img/logo.jpg" class="w-full rounded-md" alt="Logo Manuel Berganza">
+            </a>
+        </div>
+        <div class="hidden md:flex space-x-4">
+            <a href="/" class="text-gray-300 hover:text-white">Inicio</a>
+            <a href="/sobre-mi" class="text-gray-300 hover:text-white">Sobre mi</a>
+            <a href="/blog" class="text-gray-300 hover:text-white">Blog</a>
+            <a href="/portafolio" class="text-gray-300 hover:text-white">Portafolio</a>
+        </div>
+        <div class="md:hidden flex items-center">
+        <button id="hamburger-btn" class="text-gray-300 bg-gray-800 rounded-md p-2 focus:outline-none transition-colors ease-in-out duration-200">
+            <svg _ngcontent-ng-c2898294731="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16" class="bi bi-list"><path _ngcontent-ng-c2898294731="" fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"></path></svg>
+        </button>
+        </div>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden absolute right-4 mt-2 bg-gray-800 rounded-lg shadow-lg w-48 py-2 z-10">
+        <a href="/" class="block text-gray-300 hover:bg-gray-700 hover:text-white hover:underline px-4 py-2">Inicio</a>
+        <a href="/sobre-mi" class="block text-gray-300 hover:bg-gray-700 hover:text-white hover:underline px-4 py-2">Sobre mi</a>
+        <a href="/blog" class="block text-gray-300 hover:bg-gray-700 hover:text-white hover:underline px-4 py-2">Blog</a>
+        <a href="/portafolio" class="block text-gray-300 hover:bg-gray-700 hover:text-white hover:underline px-4 py-2">Portafolio</a>
+    </div>
+</nav>
+
+    <main class="w-4/5 max-w-4xl mx-auto pb-14 min-h-screen">
+        <h2 class="text-center text-4xl font-bold mb-8">Punto de Venta App - Spring MVC</h2>
+<section class="w-4/5 mx-auto">
+    <img class="rounded-md shadow-lg mb-8" src="/img/post/pos-portada.png" />
+<p><div class="mb-12">
+<p>
+La aplicación <span class="text-mb-blue-light"><strong>Punto de Venta</strong></span> es uno de los proyectos que más me ha gustado desarrollar porque aborda todo lo esencial de un comercio. Por ejemplo: <span class="text-mb-blue-light"><strong> Ventas, Inventario, Proveedores, Clientes, Facturación</strong></span>  y para los empleados con el rol de Administrador pueden <span class="text-mb-blue-light"><strong>Administrar los Usuarios</strong></span> (empleados). <br/><br/>
+La idea surgió al ver cómo algunos negocios enfrentan dificultades para gestionar ventas, controlar inventarios y manejar facturas de manera organizada. Mi objetivo principal fue crear una herramienta intuitiva, capaz de cubrir todas estas necesidades. <br/><br/>
+</p></p>
+<p><p class="bg-gray-700/10 p-4 rounded-md">
+<span class="font-bold text-xl">Tecnologías: </span> <span class="text-mb-blue-light"><strong>Spring MVC</strong></span>, <span class="text-mb-blue-light"><strong>Spring Data JPA</strong></span>, <span class="text-mb-blue-light"><strong>Sprign Security</strong></span>, <span class="text-mb-blue-light"><strong>Spring Validation</strong></span>, <span class="text-mb-blue-light"><strong>MySQL</strong></span>, <span class="text-mb-blue-light"><strong>Thymeleaf</strong></span>, <span class="text-mb-blue-light"><strong>HTML</strong></span>, <span class="text-mb-blue-light"><strong>TailwindCSS</strong></span> y <span class="text-mb-blue-light"><strong>Javascript</strong></span>.
+</p>
+</div></p>
+<p><div class="mb-12">
+<p class="text-xl font-bold mb-2">Estructura del proyecto:</p>
+<ul class="mb-4">
+<li>
+com.manuelberganza.pos_app
+</li>
+</ul>
+<img class="rounded-md shadow-lg w-64 md:w-full mx-auto" src="/img/pos-app/5-pos.png" />
+</div></p>
+<p><div class="mb-12">
+<p>
+En esta clase Modelo <span class="text-mb-blue-light"><strong>Producto</strong></span> incluye atributos como el id único del producto, nombre, descripción, precio, cantidad en stock, categoría, y proveedor.
+Cada instancia de la clase <span class="text-mb-blue-light"><strong>Producto</strong></span> refleja un ítem específico dentro del inventario y un registro dentro de la base de datos.
+</p>
+<img class="rounded-md w-64 md:w-2/3 mx-auto" src="/img/pos-app/1-pos.png" />
+</div></p>
+<p><div class="mb-12">
+<p>
+El archivo  de configuración <span class="text-mb-blue-light"><strong>SpringConfig</strong></span> donde manejo la autenticación y autorización en el sistema.<br>
+Es aquí donde tengo el <span class="text-mb-blue-light"><strong>PasswordEncoder</strong></span>, <span class="text-mb-blue-light"><strong>FilterChain</strong></span> y <span class="text-mb-blue-light"><strong>UserDetailsManager</strong></span>. <br/><br/>
+</p>
+<p class="mb-4">
+El <span class="text-mb-blue-light"><strong>PasswordEncoder</strong></span> que se encarga de encriptar y verificar las contraseñas de los usuarios.
+</p>
+<p class="mb-4">
+Mientras el <span class="text-mb-blue-light"><strong>FilterChain</strong></span>, que es una estructura de filtros que procesa cada solicitud y respuesta en el sistema, manejando la autenticación para permitir que solo usuarios autorizados accedan a los recursos.<br>
+</p>
+<p class="mb-4">
+Por último, incluyo <span class="text-mb-blue-light"><strong>UserDetailsManager</strong></span>, el componente encargado de cargar y gestionar la información de los usuarios desde la base de datos, como los nombres de usuario y roles, para facilitar el control de acceso en la aplicación.
+</p>
+<img class="rounded-md w-64 md:w-full mx-auto" src="/img/pos-app/2-pos.png" />
+</div></p>
+<p><div class="mb-12">
+<p>
+En el archivo <span class="text-mb-blue-light"><strong>ProductoRepository</strong></span>, he implementado métodos personalizados utilizando la anotación @Query para realizar consultas específicas que van más allá de las funciones estándar de los repositorios en <span class="text-mb-blue-light"><strong>Spring Data JPA</strong></span>.
+</p></p>
+<p><p>
+Gracias a <span class="text-mb-blue-light"><strong>@Query</strong></span>, puedo utilizar consultas JPQL o SQL nativas directamente en el repositorio, lo que brinda flexibilidad y control en el acceso a los datos.
+</p>
+<img class="rounded-md w-64 md:w-2/3 mx-auto" src="/img/pos-app/4-pos.png" />
+</div></p>
+<p><div class="mb-12">
+<p>
+En el paquete <span class="text-mb-blue-light"><small class="font-bold">com.manuelberganza.pos_app.security.validations</small></span> he creado una anotación personalizada para validar que un usuario existe en la base de datos antes de realizar ciertas operaciones, como la autenticación o asignación de permisos.
+</p>
+<img class="rounded-md w-64 md:w-2/3 mx-auto" src="/img/pos-app/3-pos.png" />
+</div></p>
+<p><div class="mb-12">
+<p class="text-xl font-bold mb-8">Factura hecha con HTML, TailwindCSS.</p>
+<img class="rounded-md w-64 md:w-2/3 mx-auto" src="/img/pos-app/factura-pos.png" />
+</div></p>
+</section>
+    </main>
+
+    <footer class="bg-mb-secondary border-t border-mb-blue-light p-6">
+    <h2 class="text-center text-2xl font-bold mb-10">Redes Sociales</h2>
+
+    <div class="flex justify-evenly mb-10">
+        <a href="https://www.linkedin.com/in/manuel-berganza/" target="_blank">
+            <div class="flex hover:scale-125 transition-all ease-out duration-200">
+                <div class="w-6">
+                    <img src="/img/tech/linkedin.svg" alt="logo linkedin">
+                </div>
+
+                    <p class="ml-2 text-xl">LinkedIn</p>
+            </div>
+        </a>
+
+        <a href="https://github.com/manuelberganza-dev" target="_blank">
+            <div class="flex hover:scale-125 transition-all ease-out duration-200">
+                <div class="w-6">     
+                    <img src="/img/tech/github.svg" alt="logo github">
+                </div>
+
+                <p class="ml-2 text-xl">Github</p>
+            </div>
+        </a>
+    </div>
+
+    
+    <div class="text-xl text-center mb-6">
+        <p class="text-sm text-gray-400">
+            Hecho con <a href="https://www.11ty.dev/" target="_blank"><span class="text-mb-blue-light font-bold">11ty</span></a>
+            por <a href="https://x.com/manuelberganza_" target="_blank"><span class="text-mb-blue-light font-bold">Manuel Berganza</span></a>
+        </p>
+        <p class="text-sm text-gray-400">Construyendo Software con toda la actitud 😎 desde El Salvador, para el mundo.</p>
+    </div>
+
+</footer>
+
+    <script src="/js/app.js"></script>
+</body>
+</html>

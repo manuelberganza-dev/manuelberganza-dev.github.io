@@ -42,35 +42,88 @@
 </nav>
     <main class="min-h-screen">
         
-<header class="mb-16 md:mb-20 w-full md:max-w-3xl md:mx-auto">
+<header class="mb-16 md:mb-28 w-full md:max-w-3xl md:mx-auto">
     <div class="text-center mx-10 mb-12">
         <h1 class="text-2xl md:text-3xl mb-8 bg-gray-700/10 p-2 rounded-md">Hola, soy <span class="font-bold">Manuel Berganza.</span></h1>
-        <p class="text-4xl md:text-5xl font-semibold">Programador Web con experiencia en la creación de <span class="text-mb-blue-light">API-REST</span> y aplicaciones <span class="text-mb-blue-light">MVC</span> con <span class="text-mb-blue-light">Java</span>, <span class="text-mb-blue-light">Spring</span> y <span class="text-mb-blue-light">Node.js</span>.</p>
+        <p class="text-4xl md:text-5xl font-semibold">Programador Web con experiencia en la creación de <span class="text-mb-blue-light">API-REST</span> y aplicaciones <span class="text-mb-blue-light">MVC</span> con <span class="text-mb-blue-light">Java</span>, <span class="text-mb-blue-light">Spring</span> y <span class="text-mb-blue-light">MySQL</span>.</p>
     </div>
-    <hr class="w-16 border-mb-blue-light mx-auto">
+    <hr class="w-16 border-mb-blue-light mb-12 mx-auto">
+
+    <div class="bg-gray-700/10 p-6 rounded-md w-4/5 md:w-full mx-auto">
+    <h4 class="text-2xl font-bold">Stack de Spring que Uso: </h4>
+    <p class="text-xl">
+        <span class="text-mb-blue-light">Spring MVC</span>, <span class="text-mb-blue-light">Spring Security</span>, <span class="text-mb-blue-light">Spring Data JPA</span>, <span class="text-mb-blue-light">Spring Validations</span> y <span class="text-mb-blue-light">Thymeleaf</span>.
+    </p>
+</div>
 </header>
 
 
 <section class="mb-20 w-4/5 mx-auto">
-    <h3 class="text-2xl md:text-4xl font-bold text-center mb-8 md:mb-16 shadow-lg">Algunos de mis proyectos</h3>
+    <h3 class="text-2xl md:text-4xl font-bold text-center mb-4 md:mb-8">Mis proyectos</h3>
+    <hr class="w-16 border-mb-blue-light mb-16 mx-auto">
 
     
     <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-        <a href="https://www.google.com" target="_blank" class="hover:scale-110 transition-all ease-in duration-200">
+        <a href="/pos" target="_blank" class="hover:scale-110 transition-all ease-in duration-200">
             <div>
                 <div class="mb-4">
-                    <img src="/img/post/placeholder.png" class="rounded-lg shadow-lg" alt="">
+                    <img src="/img/post/pos-portada.png" class="rounded-lg shadow-lg" alt="">
                 </div>
                 
                 <div class="mb-4">
-                    <p class="text-2xl font-bold mb-2">Proyecto #1</p>
-                    <p class="text-mb-gray-light">Anim do et nulla enim ex mollit cupidatat velit ipsum.</p>
+                    <p class="text-2xl font-bold mb-2">Punto de Venta</p>
+                    <p class="text-mb-gray-light">
+                        Permite a los empleados gestionar inventarios, registrar ventas, y emitir recibos.
+                        Brindando control en el manejo de productos, clientes, y pagos.
+                    </p>
+                </div>
+                <div class="w-full flex flex-nowrap gap-2">
+                    <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">Java</p>
+                    <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">Spring MVC</p>
+                    <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">Thymeleaf</p>
+                    <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">Javascript</p>
+                </div>
+            </div> 
+        </a> <!-- FIN CARD PROJECT -->
+
+        <a href="/xclone" target="_blank" class="hover:scale-110 transition-all ease-in duration-200">
+            <div>
+                <div class="mb-4">
+                    <img src="/img/post/xclone-portada.jpeg" class="rounded-lg shadow-lg" alt="">
+                </div>
+                
+                <div class="mb-4">
+                    <p class="text-2xl font-bold mb-2">Xclone App</p>
+                    <p class="text-mb-gray-light">
+                        Es una replica de X creada desde el diseño de su base de datos. permite crear publicaciones e interactuar con otras mediante "me gusta" y comentarios.
+                    </p>
                 </div>
                 <div class="flex gap-2">
-                    <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">Node.js</p>
-                    <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">Node.js</p>
-                    <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">Node.js</p>
-                    <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">Node.js</p>
+                    <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">Java</p>
+                    <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">Spring MVC</p>
+                    <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">Thymeleaf</p>
+                    <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">Javascript</p>
+                </div>
+            </div> 
+        </a> <!-- FIN CARD PROJECT -->
+        
+        <a href="/todo-api-rest" target="_blank" class="hover:scale-110 transition-all ease-in duration-200">
+            <div>
+                <div class="mb-4">
+                    <img src="/img/post/todo-portada.png" class="rounded-lg shadow-lg" alt="">
+                </div>
+                
+                <div class="mb-4">
+                    <p class="text-2xl font-bold mb-2">Todo API REST</p>
+                    <p class="text-mb-gray-light">
+                        API REST creada con Spring para Gestionar tareas, permitiendo a los usuarios crear, actualizar, eliminar sus tareas. Está diseñada para integrarse fácilmente con el frontend.
+                    </p>
+                </div>
+                <div class="flex gap-2">
+                    <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">Java</p>
+                    <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">Spring</p>
+                    <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">Spring Security</p>
+                    <p class="bg-mb-gray text-mb-gray-light inline-block p-1 rounded-md">MySQL</p>
                 </div>
             </div> 
         </a> <!-- FIN CARD PROJECT -->
@@ -78,13 +131,13 @@
 </section>
 
 <section class="mb-20 w-4/5 mx-auto">
-    <h3 class="text-center text-2xl md:text-3xl font-bold mb-6 animate-bounce">Contáctame ⬇</h3>
+    <h3 class="text-center text-2xl md:text-3xl font-bold mb-6 animate-bounce">Contáctame ⬇ &#128232;</h3>
 
     <div class="flex flex-col justify-center md:flex-row md:justify-center gap-4">
-        <p id="correo" class="bg-slate-900 p-2 md:p-4 text-xl text-center rounded-md shadow-lg">
+        <p id="correo" class="bg-slate-900 p-2 md:p-4 text-xl font-bold text-center rounded-md shadow-lg">
             manuelberganza.dev@gmail.com
         </p>
-        <button id="correoBtn" class="bg-blue-600 hover:bg-blue-950 text-xl p-2 rounded-md transition-colors ease-in-out shadow-md">
+        <button id="correoBtn" class="bg-blue-600 hover:bg-blue-950 text-xl uppercase font-bold p-2 rounded-md transition-colors ease-in-out shadow-md">
             Copiar
         </button>
     </div>
@@ -123,18 +176,7 @@
             <p class="text-center mt-2">JAVASCRIPT</p>
         </div>
 
-        <div class="hover:scale-125 transition-all ease-out duration-200">
-            <img src="/img/tech/bootstrap.svg" alt="logo bootstrap">
-            <p class="text-center mt-2">BOOTSTRAP</p>
-        </div>
-
-        <div class="hover:scale-125 transition-all ease-out duration-200">
-            <img src="/img/tech/tailwind.svg" alt="logo tailwind">
-
-            <p class="text-center mt-2">TAILWIND</p>  
-        </div>
-
-        <div class="hover:scale-125 transition-all ease-out duration-200">
+                <div class="hover:scale-125 transition-all ease-out duration-200">
             <img src="/img/tech/html.svg" alt="logo html">
 
             <p class="text-center mt-2">HTML</p>
@@ -147,15 +189,14 @@
         </div>
 
         <div class="hover:scale-125 transition-all ease-out duration-200">
-            <img src="/img/tech/nodejs.svg" alt="logo nodejs">
-
-            <p class="text-center mt-2">NODEJS</p>
+            <img src="/img/tech/bootstrap.svg" alt="logo bootstrap">
+            <p class="text-center mt-2">BOOTSTRAP</p>
         </div>
 
         <div class="hover:scale-125 transition-all ease-out duration-200">
-            <img src="/img/tech/ts.svg" alt="logo typescript">
+            <img src="/img/tech/tailwind.svg" alt="logo tailwind">
 
-            <p class="text-center mt-2">TYPESCRIPT</p>
+            <p class="text-center mt-2">TAILWIND</p>  
         </div>
 
         <div class="hover:scale-125 transition-all ease-out duration-200">
@@ -165,9 +206,21 @@
         </div>
 
         <div class="hover:scale-125 transition-all ease-out duration-200">
-            <img src="/img/tech/react.svg" alt="logo react">
+            <img src="/img/tech/github.svg" alt="logo react">
 
-            <p class="text-center mt-2">REACT</p>
+            <p class="text-center mt-2">GITHUB</p>
+        </div>
+
+        <div class="hover:scale-125 transition-all ease-out duration-200">
+            <img src="/img/tech/ubuntu.svg" alt="logo react">
+
+            <p class="text-center mt-2">UBUNTU</p>
+        </div>
+
+        <div class="hover:scale-125 transition-all ease-out duration-200">
+            <img src="/img/tech/python.svg" alt="logo react">
+
+            <p class="text-center mt-2">PYTHON</p>
         </div>
    </div>
     
@@ -179,7 +232,7 @@
 
     <div class="flex justify-evenly mb-10">
         <a href="https://www.linkedin.com/in/manuel-berganza/" target="_blank">
-            <div class="flex">
+            <div class="flex hover:scale-125 transition-all ease-out duration-200">
                 <div class="w-6">
                     <img src="/img/tech/linkedin.svg" alt="logo linkedin">
                 </div>
@@ -189,7 +242,7 @@
         </a>
 
         <a href="https://github.com/manuelberganza-dev" target="_blank">
-            <div class="flex">
+            <div class="flex hover:scale-125 transition-all ease-out duration-200">
                 <div class="w-6">     
                     <img src="/img/tech/github.svg" alt="logo github">
                 </div>
