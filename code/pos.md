@@ -15,7 +15,7 @@ title: Punto de Venta | Spring MVC, Spring Security, Spring Data JPA
         </p>
 
         <p class="bg-gray-700/10 p-4 rounded-md">
-            <span class="font-bold text-xl">Tecnologías: </span> <span class="text-mb-blue-light"><strong>Spring MVC</strong></span>, <span class="text-mb-blue-light"><strong>Spring Data JPA</strong></span>, <span class="text-mb-blue-light"><strong>Sprign Security</strong></span>, <span class="text-mb-blue-light"><strong>Spring Validation</strong></span>, <span class="text-mb-blue-light"><strong>MySQL</strong></span>, <span class="text-mb-blue-light"><strong>Thymeleaf</strong></span>, <span class="text-mb-blue-light"><strong>HTML</strong></span>, <span class="text-mb-blue-light"><strong>TailwindCSS</strong></span> y <span class="text-mb-blue-light"><strong>Javascript</strong></span>.
+            <span class="font-bold text-xl">Tecnologías: </span> <span class="text-mb-blue-light"><strong>Spring MVC</strong></span>, <span class="text-mb-blue-light"><strong>Spring Data JPA</strong></span>, <span class="text-mb-blue-light"><strong>Spring Security</strong></span>, <span class="text-mb-blue-light"><strong>Spring Validation</strong></span>, <span class="text-mb-blue-light"><strong>MySQL</strong></span>, <span class="text-mb-blue-light"><strong>Thymeleaf</strong></span>, <span class="text-mb-blue-light"><strong>HTML</strong></span>, <span class="text-mb-blue-light"><strong>TailwindCSS</strong></span> y <span class="text-mb-blue-light"><strong>Javascript</strong></span>.
         </p>
     </div>
 
@@ -39,7 +39,7 @@ title: Punto de Venta | Spring MVC, Spring Security, Spring Data JPA
 
     <div class="mb-12">
         <p>
-            El archivo  de configuración <span class="text-mb-blue-light"><strong>SpringConfig</strong></span> donde manejo la autenticación y autorización en el sistema.<br>
+            El archivo  de configuración <span class="text-mb-blue-light"><strong>SpringConfig</strong></span> donde manejo la autenticación y autorización en el sistema.
             Es aquí donde tengo el <span class="text-mb-blue-light"><strong>PasswordEncoder</strong></span>, <span class="text-mb-blue-light"><strong>FilterChain</strong></span> y <span class="text-mb-blue-light"><strong>UserDetailsManager</strong></span>. <br/><br/>
         </p>
         <p class="mb-4">
@@ -56,11 +56,11 @@ title: Punto de Venta | Spring MVC, Spring Security, Spring Data JPA
 
     <div class="mb-12">
         <p>
-            En el archivo <span class="text-mb-blue-light"><strong>ProductoRepository</strong></span>, he implementado métodos personalizados utilizando la anotación @Query para realizar consultas específicas que van más allá de las funciones estándar de los repositorios en <span class="text-mb-blue-light"><strong>Spring Data JPA</strong></span>.
+            En el archivo <span class="text-mb-blue-light"><strong>ProductoRepository</strong></span>, he implementado métodos personalizados utilizando la anotación @Query para realizar consultas específicas que van más allá de las funciones estándar de los repositories en <span class="text-mb-blue-light"><strong>Spring Data JPA</strong></span>.
         </p>
 
         <p>
-            Gracias a <span class="text-mb-blue-light"><strong>@Query</strong></span>, puedo utilizar consultas JPQL o SQL nativas directamente en el repositorio, lo que brinda flexibilidad y control en el acceso a los datos.
+            Gracias a <span class="text-mb-blue-light"><strong>@Query</strong></span>, puedo utilizar consultas JPQL o SQL nativas directamente en el repository, lo que brinda flexibilidad y control en el acceso a los datos.
         </p>
         <img class="rounded-md w-64 md:w-2/3 mx-auto" src="/img/pos-app/4-pos.png" />
     </div>
