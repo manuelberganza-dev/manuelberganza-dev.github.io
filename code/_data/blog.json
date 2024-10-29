@@ -1,3 +1,8 @@
 {
-    "linksArticles": []
+    "linksArticles": [{
+        "url": "/historia-java",
+        "img": "/img/tech/java.svg",
+        "title": "Historia del Lenguaje de programación Java",
+        "date": "15-02-2024"
+    }]
 }
