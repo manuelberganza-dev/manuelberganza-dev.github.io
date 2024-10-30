@@ -37,3 +37,13 @@ title: Xclone App | Spring MVC, Spring Security, Spring Data JPA
     </p>
     <img class="rounded-md shadow-lg w-48 md:w-80 mx-auto" src="/img/xclone-app/xclone-movil.jpeg" />
 </div>
+
+<div class="mb-12">
+    <p class="mb-8">
+        Los usuarios pueden interactuar con las publicaciones de otros dando "me gusta". Para implementar esto, he creado una tabla llamada Likes, que registra cada “me gusta” en la base de datos junto con el id de la publicación y el id del usuario que dio me gusta.
+    </p>
+
+    <p>
+        Para mejorar la experiencia del usuario, he implementado una funcionalidad en JavaScript que cambia el color del ícono "me gusta" cuando un usuario interactúa con él. Este cambio de color refleja visualmente el estado del "me gusta", permitiendo que el usuario sepa en todo tiempo si ya ha dado "me gusta" a una publicación o no.
+    </p>
+</div>
