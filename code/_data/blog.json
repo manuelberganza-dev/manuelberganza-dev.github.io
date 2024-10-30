@@ -2,7 +2,12 @@
     "linksArticles": [{
         "url": "/historia-java",
         "img": "/img/tech/java.svg",
-        "title": "Historia del Lenguaje de programación Java",
+        "title": "Historia de Java",
         "date": "15-02-2024"
+    }, {
+        "url": "/historia-spring",
+        "img": "/img/tech/spring.svg",
+        "title": "Historia de Spring",
+        "date": "07-06-2024"
     }]
 }

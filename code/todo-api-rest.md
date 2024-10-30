@@ -9,6 +9,10 @@ title: Todo API REST | Spring, MySQL
     <p class="mb-8">
         <span class="text-mb-blue-light"><strong>Spring MVC</strong></span> no solo tiene un gran potencial para crear aplicaciones web renderizadas en el servidor, sino también para crear <span class="text-mb-blue-light"><strong>API REST</strong></span> siguiendo este patrón. 
     </p>
+
+    <p class="bg-gray-700/10 p-4 rounded-md mb-8">
+        <span class="font-bold text-xl">Tecnologías: </span> <span class="text-mb-blue-light"><strong>Spring MVC</strong></span>, <span class="text-mb-blue-light"><strong>Spring Data JPA</strong></span>, <span class="text-mb-blue-light"><strong>Spring Security</strong></span>, <span class="text-mb-blue-light"><strong>Spring Validation</strong></span>, <span class="text-mb-blue-light"><strong>MySQL</strong></span>
+    </p>
     <img class="rounded-md shadow-lg mx-auto" src="/img/post/todo-portada.png" />
 </div>
 

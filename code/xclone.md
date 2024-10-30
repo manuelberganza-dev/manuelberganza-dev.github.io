@@ -19,14 +19,14 @@ title: Xclone App | Spring MVC, Spring Security, Spring Data JPA
     
 <div class="mb-12">
     <p class="mb-8">
-        Podemos ver la estructura de directorios y algunos de sus controladores, donde manejo la validacion de los datos enviados desde un formulario utilizando <span class="text-mb-blue-light"><strong>@Valid</strong></span> y <span class="text-mb-blue-light"><strong>BindingResult</strong></span>.
+        Podemos ver la estructura de directorios y algunos de sus controladores, donde manejo la validación de los datos enviados desde un formulario utilizando <span class="text-mb-blue-light"><strong>@Valid</strong></span> y <span class="text-mb-blue-light"><strong>BindingResult</strong></span>.
     </p>
     <img class="rounded-md shadow-lg w-64 md:w-full mx-auto" src="/img/xclone-app/1-xclone.png" />
 </div>
 
 <div class="mb-12">
     <p class="mb-4">
-        Controlador que procesa el formulario que crea cada post:
+        Podemos ver detenidamente el controlador que se encarga de procesar el formulario que crea cada post:
     </p>
     <img class="rounded-md shadow-lg w-64 md:w-full mx-auto" src="/img/xclone-app/3-xclone.png" />
 </div>
