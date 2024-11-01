@@ -721,10 +721,6 @@ video {
   max-width: 56rem;
 }
 
-.max-w-72 {
-  max-width: 18rem;
-}
-
 .max-w-7xl {
   max-width: 80rem;
 }
@@ -735,10 +731,6 @@ video {
 
 .max-w-xl {
   max-width: 36rem;
-}
-
-.max-w-60 {
-  max-width: 15rem;
 }
 
 @keyframes bounce {

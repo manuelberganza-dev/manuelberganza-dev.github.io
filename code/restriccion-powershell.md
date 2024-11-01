@@ -15,7 +15,7 @@ title: Restricción para ejecutar Script en PowerShell
             1- Abrimos la consola PowerShell como administrador y comprobamos el error escribiendo <span class="text-mb-blue-light"><strong>«Get-ExecutionPolicy»</strong></span>.
         </li>
         <li>
-            2- SOLUCION: Escribimos en la consola <span class="text-mb-blue-light"><strong>«Set-ExecutionPolicy Unrestricted»</strong></span>.
+            2- <span class="text-mb-blue-light"><strong>SOLUCIÓN</strong></span>: Escribimos en la consola <span class="text-mb-blue-light"><strong>«Set-ExecutionPolicy Unrestricted»</strong></span>.
         </li>
     </ul>
 
