@@ -9,5 +9,10 @@
         "img": "/img/tech/spring.svg",
         "title": "Historia de Spring",
         "date": "07-06-2024"
+    }, {
+        "url": "/restriccion-powershell",
+        "img": "/img/tech/windows.svg",
+        "title": "Restricción de Scripts en PowerShell",
+        "date": "11-06-2024"
     }]
 }

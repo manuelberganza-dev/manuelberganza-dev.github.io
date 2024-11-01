@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restricción para ejecutar Script en PowerShell</title>
 
     <link href="/output.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Teko:wght@300&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
-    
-    <title>Blog</title>
 </head>
 <body class="bg-mb-primary text-white leading-relaxed">
     
@@ -40,72 +39,29 @@
         <a href="/portafolio" class="block text-gray-300 hover:bg-gray-700 hover:text-white hover:underline px-4 py-2">Portafolio</a>
     </div>
 </nav>
-    <main class="min-h-screen">
-        
-<section class="mb-20 w-4/5 mx-auto max-w-3xl">
-    <div class="mb-8 md:mb-20">
-        <h2 class="text-3xl font-bold text-center mb-4 md:text-4xl">Blog</h2>
-        <p class="text-xl">En este espacio vas a encontrar mis apuntes de programación, desde artículos, tutoriales, hasta teoría y ejemplos en código. 📚😃</p>
-    </div>
 
-    <div>
-        <div class="mb-8">
-            <h2 class="text-3xl font-bold text-center mb-4 md:text-4xl">Artículos</h2>
-            <hr class="w-16 border-mb-blue-light mx-auto">
-        </div>
+    <main class="w-4/5 max-w-4xl mx-auto pb-14 min-h-screen">
+        <h2 class="text-center text-4xl font-bold mb-8">Restricción para ejecutar Scripts en PowerShell</h2>
+<div class="mb-6 space-y-6">
+    <p>
+        Para poder corregir la restricción que trae por defecto la PowerShell de Windows para ejecutar Script, debemos realizar:
+    </p>
+<p><ul>
+<li>
+1- Abrimos la consola PowerShell como administrador y comprobamos el error escribiendo <span class="text-mb-blue-light"><strong>«Get-ExecutionPolicy»</strong></span>.
+</li>
+<li>
+2- SOLUCION: Escribimos en la consola <span class="text-mb-blue-light"><strong>«Set-ExecutionPolicy Unrestricted»</strong></span>.
+</li>
+</ul></p>
+<p><div class="w-fit mx-auto">
+<img class="w-52 rounded-md" src="/img/tech/windows.svg">
+<h2 class="text-center font-bold text-xl mt-2">Windows 10 y 11</h2>
+</div></p>
+</div>
 
-        
-            <div class="p-2 bg-slate-950/75 hover:bg-slate-900/75 shadow-md rounded-lg mb-6">
-                <a href="/historia-java">
-                    <div class="flex items-center">
-                            <div class="w-1/6 mr-4">
-                                <img class="w-full" src="/img/tech/java.svg" alt="imagen del articulo">
-                            </div>
-
-                            <div class="w-5/6">
-                                <h3 class="font-bold text-xl">Historia de Java</h3>
-                                <p class="text-gray-500">15-02-2024</p>
-                            </div>
-                    </div>
-                </a>
-            </div>
-        
-            <div class="p-2 bg-slate-950/75 hover:bg-slate-900/75 shadow-md rounded-lg mb-6">
-                <a href="/historia-spring">
-                    <div class="flex items-center">
-                            <div class="w-1/6 mr-4">
-                                <img class="w-full" src="/img/tech/spring.svg" alt="imagen del articulo">
-                            </div>
-
-                            <div class="w-5/6">
-                                <h3 class="font-bold text-xl">Historia de Spring</h3>
-                                <p class="text-gray-500">07-06-2024</p>
-                            </div>
-                    </div>
-                </a>
-            </div>
-        
-            <div class="p-2 bg-slate-950/75 hover:bg-slate-900/75 shadow-md rounded-lg mb-6">
-                <a href="/restriccion-powershell">
-                    <div class="flex items-center">
-                            <div class="w-1/6 mr-4">
-                                <img class="w-full" src="/img/tech/windows.svg" alt="imagen del articulo">
-                            </div>
-
-                            <div class="w-5/6">
-                                <h3 class="font-bold text-xl">Restricción de Scripts en PowerShell</h3>
-                                <p class="text-gray-500">11-06-2024</p>
-                            </div>
-                    </div>
-                </a>
-            </div>
-        
-
-    </div> <!-- FIN ARTICULO-->
-
-
-</section>
     </main>
+
     <footer class="bg-mb-secondary border-t border-mb-blue-light p-6">
     <h2 class="text-center text-2xl font-bold mb-10">Redes Sociales</h2>
 
