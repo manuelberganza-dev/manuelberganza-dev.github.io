@@ -5,7 +5,17 @@ title: Punto de Venta | Spring MVC, Spring Security, Spring Data JPA
 
 <h2 class="text-center text-4xl font-bold mb-8">Punto de Venta App - Spring MVC</h2>
 
-<img class="rounded-md shadow-lg mb-8" src="/img/post/pos-portada.png" />
+<div>
+    <iframe 
+        class="aspect-video md:w-full my-12 mx-auto"
+        src="https://www.youtube.com/embed/pog6m8ya6sk"
+        title="Sistema de Gestión de inventarios y facturas hecho con Java &amp; Spring Boot"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+    </iframe>
+</div>
 
 <div class="mb-12">
     <p>
