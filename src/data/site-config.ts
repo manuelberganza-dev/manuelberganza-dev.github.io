@@ -42,7 +42,7 @@ const siteConfig: SiteConfig = {
     website: 'https://manuelberganza-dev.github.io',
     title: 'Manuel Berganza',
     subtitle: 'Programador Java, Spring y NodeJS',
-    description: 'Manuel Berganza programador backend Java, Spring y Node.js. Trabajo con microservicios, APIs REST y bases de datos MySQL. También tengo experiencia en TypeScript, JavaScript, Docker, Linux y Git. Bienvenido a mi espacio donde comparto proyectos, aprendizajes y recursos de programación.',
+    description: 'Manuel Berganza programador backend Java, Spring y Node.js. Trabajo con microservicios, APIs REST y bases de datos MySQL. Bienvenidos a mi blog donde comparto proyectos, aprendizajes y recursos de programación.',
     headerNavLinks: [
         {
             text: 'Inicio',
@@ -57,12 +57,6 @@ const siteConfig: SiteConfig = {
             href: '/blog'
         },
         {
-            text: 'Tags',
-            href: '/tags'
-        }
-    ],
-    footerNavLinks: [
-        {
             text: 'Sobre mí',
             href: '/about'
         },
@@ -70,16 +64,24 @@ const siteConfig: SiteConfig = {
             text: 'Contacto',
             href: '/contact'
         },
+        {
+            text: 'Tags',
+            href: '/tags'
+        },
     ],
     socialLinks: [
         {
             text: 'LinkedIn',
-            href: 'https://www.linkedin.com/in/manuel-berganza/'
+            href: 'https://www.linkedin.com/in/manuel-berganza/',
+        },
+        {
+            text: 'Github',
+            href: 'https://github.com/manuelberganza-dev',
         },
     ],
     hero: {
         title: 'Bienvenidos a mi Blog!',
-        text: "Este es un espacio para compartir mis conocimientos y experiencias, y puedes explorar algunos de mis proyectos en <a href='https://github.com/manuelberganza-dev'>GitHub</a>.",
+        text: "Este es un espacio para compartir mis conocimientos y experiencias. Puedes explorar algunos de mis proyectos en: <a href='https://github.com/manuelberganza-dev'>GitHub</a>.",
         actions: [
             {
                 text: 'Contáctame',
