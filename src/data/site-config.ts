@@ -41,7 +41,7 @@ export type SiteConfig = {
 const siteConfig: SiteConfig = {
     website: 'https://manuelberganza-dev.github.io',
     title: 'Manuel Berganza',
-    subtitle: 'Portafolio y Blog de un Desarrollador Backend',
+    subtitle: 'Programador Java, Spring y NodeJS',
     description: 'Manuel Berganza programador backend Java, Spring y Node.js. Trabajo con microservicios, APIs REST y bases de datos MySQL. También tengo experiencia en TypeScript, JavaScript, Docker, Linux y Git. Bienvenido a mi espacio donde comparto proyectos, aprendizajes y recursos de programación.',
     headerNavLinks: [
         {
@@ -79,7 +79,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Bienvenidos a mi Blog!',
-        text: "**Manuel Berganza**, programador Java, Spring y Node.js, especializado en microservicios y APIs REST. También manejo MySQL, TypeScript, JavaScript, Docker, Linux y Git. Me apasiona crear soluciones escalables y eficientes, Puedes explorar algunos de mis trabajos en <a href='https://github.com/manuelberganza-dev'>GitHub</a>",
+        text: "Este es un espacio para compartir mis conocimientos y experiencias, y puedes explorar algunos de mis proyectos en <a href='https://github.com/manuelberganza-dev'>GitHub</a>.",
         actions: [
             {
                 text: 'Contáctame',
